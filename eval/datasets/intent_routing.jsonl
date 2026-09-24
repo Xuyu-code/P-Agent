@@ -1,0 +1,26 @@
+{"text": "河湟皮影戏是国家级非遗吗？", "expect": "qa"}
+{"text": "影人由哪些部件组成？", "expect": "qa"}
+{"text": "周邦辉是谁？", "expect": "qa"}
+{"text": "河湟皮影在春节有什么演出？", "expect": "qa"}
+{"text": "本项目如何查看生成任务状态？", "expect": "qa"}
+{"text": "本项目支持哪些生成服务接口？", "expect": "qa"}
+{"text": "凤冠在河湟皮影里有什么寓意？", "expect": "qa"}
+{"text": "这个 Agent 如何连接图像生成服务？", "expect": "qa"}
+{"text": "皮影戏表演需要哪些乐器？", "expect": "qa"}
+{"text": "帮我生成一个戴凤冠的女角头像", "expect": "create"}
+{"text": "再生成一版", "expect": "create"}
+{"text": "换成暖红色", "expect": "create"}
+{"text": "线稿传好了", "expect": "create"}
+{"text": "直接生成", "expect": "create"}
+{"text": "我想创作一个老生头像", "expect": "create"}
+{"text": "帮我画一张皮影", "expect": "create"}
+{"text": "我之前生成过什么？", "expect": "history"}
+{"text": "看看历史记录", "expect": "history"}
+{"text": "上次那张出来了吗？", "expect": "history"}
+{"text": "最近有哪些任务？", "expect": "history"}
+{"text": "你好", "expect": "chat"}
+{"text": "你是谁？", "expect": "chat"}
+{"text": "谢谢", "expect": "chat"}
+{"text": "今天天气怎么样？", "expect": "chat"}
+{"text": "直接生成", "expect": "create", "context": ["user:帮我设计一个戴凤冠的女角皮影头像", "assistant:请先上传一张头像线稿。"]}
+{"text": "那它的传承人呢？", "expect": "qa", "context": ["user:河湟皮影戏主要流传在哪里？", "assistant:主要流传于青海河湟地区【1】。"]}

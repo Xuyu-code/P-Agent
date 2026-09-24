@@ -1,0 +1,6 @@
+{"text": "给我来一个头戴方冠、绛红色调的老生，脸朝左", "expect_slots": {"role": "老生", "headwear": "方冠", "color_palette": "绛红", "facing": "左"}}
+{"text": "凤冠换成莲花冠，其他不变", "expect_slots": {"headwear": "莲花冠"}}
+{"text": "不要有红色，也千万别加花纹", "expect_slots": {"negative_prompt": "红"}}
+{"text": "来一个看着喜庆点的女角", "expect_slots": {"role": "女角"}}
+{"text": "小生，素色，其他你看着办", "expect_slots": {"role": "小生"}}
+{"text": "帮我把影人做成侧身向右、头戴凤冠、镂空云纹、主色黛蓝的样子", "expect_slots": {"facing": "右", "headwear": "凤冠", "pattern": "云纹", "color_palette": "黛蓝"}}

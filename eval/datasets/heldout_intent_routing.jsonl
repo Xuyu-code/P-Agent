@@ -1,0 +1,12 @@
+{"text": "能给我讲讲靳生昌带徒弟的事吗？", "expect": "qa"}
+{"text": "这个系统如何连接外部生成服务？", "expect": "qa"}
+{"text": "generate a shadow puppet for me", "expect": "create"}
+{"text": "河湟皮影值不值得学？顺便给我设计一个", "expect": "create"}
+{"text": "凤冠和方冠哪个更适合女角？给我来一个", "expect": "create"}
+{"text": "我那张皮影排队排到哪了", "expect": "history"}
+{"text": "帮我看看前面生成的那批图", "expect": "history"}
+{"text": "你吃过饭了吗", "expect": "chat"}
+{"text": "算了，不弄了", "expect": "chat"}
+{"text": "最近有啥好玩的不", "expect": "chat"}
+{"text": "再换个大红色试试", "expect": "create", "context": ["user:帮我生成一个女角头像", "assistant:已生成（seed=42）。想调整的话直接告诉我。"]}
+{"text": "那他去哪里演出过？", "expect": "qa", "context": ["user:靳生昌是谁？", "assistant:靳生昌是河湟皮影戏代表性传承人【1】。"]}

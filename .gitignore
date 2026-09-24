@@ -1,0 +1,20 @@
+.env
+*.env
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+data/
+models/
+.venv/
+.pytest_cache/
+.streamlit/
+tmp_smoke/
+__pycache__/
+*.py[cod]
+
+# Local-only launchers may contain private API keys or machine-specific paths.
+start_agent.bat
+start_api.bat
+启动Agent双服务.bat

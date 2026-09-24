@@ -1,0 +1,38 @@
+{"question": "河湟皮影戏是不是国家级非物质文化遗产？", "expect": "answer", "must_cite": "皮影戏（河湟"}
+{"question": "河湟皮影主要流传在哪个地区？", "expect": "answer", "must_cite": "河湟皮影"}
+{"question": "公开资料中有哪些河湟皮影戏的国家级代表性传承人？", "expect": "answer", "must_cite": "周邦辉"}
+{"question": "河湟皮影影人由哪些部件组成？", "expect": "answer", "must_cite": "手指尖"}
+{"question": "河湟皮影在当代是如何被展示和保护的？", "expect": "answer", "must_cite": "展示月"}
+{"question": "春节期间河湟皮影有哪些演出场景？", "expect": "answer", "must_cite": "年俗"}
+{"question": "本项目如何提交一次生成任务？", "expect": "answer", "must_cite": "service_overview"}
+{"question": "皮影戏的表演中有哪些音乐元素？", "expect": "answer", "must_cite": "非遗数据知多少"}
+{"question": "河湟皮影影人的造型要素包括哪些方面？", "expect": "answer", "must_cite_any": ["非遗数据知多少", "手指尖"]}
+{"question": "青海地方层面对河湟皮影的保护工作有哪些公开描述？", "expect": "answer", "must_cite": "项目条目"}
+{"question": "河湟皮影和其他非遗项目一起展出过吗？", "expect": "answer", "must_cite": "展示月"}
+{"question": "河湟皮影在乡村和节庆中的演出语境是怎样的？", "expect": "answer", "must_cite": "光影里"}
+{"question": "河湟皮影影人为什么能够活动？", "expect": "answer", "must_cite": "手指尖"}
+{"question": "河湟皮影的制作中包含哪些装饰工艺？", "expect": "answer", "must_cite": "手指尖"}
+{"question": "河湟皮影的数字化保存有什么意义？", "expect": "answer", "must_cite": "数字化"}
+{"question": "周邦辉在河湟皮影中是什么身份？", "expect": "answer", "must_cite": "周邦辉"}
+{"question": "靳生昌的传承经历有哪些公开记录？", "expect": "answer", "must_cite": "靳生昌"}
+{"question": "本项目支持哪些图片格式的线稿上传？", "expect": "answer", "must_cite": "service_overview"}
+{"question": "公开仓库是否包含生成模型权重？", "expect": "answer", "must_cite": "service_overview"}
+{"question": "凤冠在河湟皮影中象征什么寓意？", "expect": "refuse"}
+{"question": "河湟皮影戏起源于哪一年？", "expect": "refuse"}
+{"question": "河湟地区现在有多少个皮影班社？", "expect": "refuse"}
+{"question": "河湟皮影和陕西皮影哪个历史更久？", "expect": "refuse"}
+{"question": "周邦辉出生于哪一年？", "expect": "refuse"}
+{"question": "河湟皮影的唱腔有多少种曲调？", "expect": "refuse"}
+{"question": "河湟皮影的凤冠一定是皇后角色专用的吗？", "expect": "refuse"}
+{"question": "河湟皮影戏一共有多少代传人？", "expect": "refuse"}
+{"question": "河湟皮影影人的标准身高是多少厘米？", "expect": "refuse"}
+{"question": "河湟皮影和唐山皮影哪个影响力更大？", "expect": "refuse"}
+{"question": "河湟皮影戏入选国家级非遗的具体日期是哪天？", "expect": "refuse"}
+{"question": "周邦辉一共收了多少个徒弟？", "expect": "refuse"}
+{"question": "靳生昌最擅长的剧目是什么？", "expect": "refuse"}
+{"question": "河湟皮影戏是否入选了联合国教科文组织名录？", "expect": "refuse"}
+{"question": "河湟皮影脸谱中红色代表什么含义？", "expect": "refuse"}
+{"question": "河湟皮影戏每年演出多少场？", "expect": "refuse"}
+{"question": "马秀英是河湟皮影的代表性传承人吗？", "expect": "refuse"}
+{"question": "河湟皮影戏在国外巡演过吗？", "expect": "refuse"}
+{"question": "制作一个河湟皮影影人需要多少天？", "expect": "refuse"}

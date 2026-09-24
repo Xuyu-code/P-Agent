@@ -1,0 +1,156 @@
+/* ============================================================
+   皮影风格界面皮肤（宣纸米白 + 朱红 + 泥金 + 黛蓝 + 墨色）
+   仅样式覆盖，不影响任何交互逻辑；
+   使用 !important 是为了在系统深色模式下也能强制浅色宣纸底。
+   ============================================================ */
+
+/* ---------- 基调：宣纸底、墨色字、衬线 ---------- */
+.stApp {
+    background: #F7F2E8 !important;
+    font-family: "Noto Serif SC", "Source Han Serif SC", "STSong", "SimSun", serif;
+}
+.stApp, .stApp p, .stApp li, .stApp label, .stApp span,
+.stApp .stMarkdown, .stApp [data-testid="stCaptionContainer"],
+.stApp [data-testid="stWidgetLabel"] p {
+    color: #2B2B2B;
+}
+
+/* 顶部横栏：幕布金线 */
+[data-testid="stHeader"] {
+    background: #F7F2E8 !important;
+    border-bottom: 3px double #C9A227;
+}
+
+/* ---------- 标题：朱红 + 楷体，戏折子感觉 ---------- */
+.stApp h1, .stApp h2, .stApp h3,
+[data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {
+    color: #B5342A !important;
+    font-family: "KaiTi", "STKaiti", "Kaiti SC", "STSong", serif !important;
+    letter-spacing: 0.04em;
+}
+.stApp h1 {
+    border-bottom: 3px double #C9A227;
+    padding-bottom: 0.35rem;
+}
+
+/* ---------- 侧栏：略深的宣纸 + 金线收边 ---------- */
+[data-testid="stSidebar"] {
+    background: #EFE7D6 !important;
+    border-right: 2px solid #C9A227;
+}
+[data-testid="stSidebar"] p, [data-testid="stSidebar"] span,
+[data-testid="stSidebar"] li, [data-testid="stSidebar"] label,
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"] {
+    color: #2B2B2B;
+}
+[data-testid="stSidebar"] hr {
+    border-color: #C9A227;
+}
+
+/* ---------- 按钮：签条式（宣纸面 + 金边 + 朱红左条，与聊天气泡同语言）；
+   朱红是点缀色不做铺底，悬停时才翻成红底 ---------- */
+.stButton > button {
+    background: #FFFBF2 !important;
+    color: #8A2A22 !important;
+    border: 1px solid #C9A227 !important;
+    border-left: 4px solid #B5342A !important;
+    border-radius: 8px !important;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.stButton > button:hover {
+    background: #B5342A !important;
+    border-color: #B5342A !important;
+    color: #FFFBF2 !important;
+}
+.stButton > button:active {
+    background: #932A21 !important;
+    border-color: #932A21 !important;
+}
+.stButton > button p { color: inherit !important; }
+
+/* ---------- 聊天气泡：米白卡 + 泥金细边 + 左侧朱红细条 ---------- */
+[data-testid="stChatMessage"] {
+    background: #FFFBF2 !important;
+    border: 1px solid #C9A227;
+    border-left: 4px solid #B5342A;
+    border-radius: 10px;
+    padding: 0.6rem 0.9rem;
+    margin-bottom: 0.4rem;
+}
+[data-testid="stChatMessage"] p,
+[data-testid="stChatMessage"] li,
+[data-testid="stChatMessage"] span {
+    color: #2B2B2B;
+}
+
+/* ---------- 展开面板（处理过程/来源/候选对比）：米白卡 + 黛蓝题签 ---------- */
+[data-testid="stExpander"] {
+    background: #FFFBF2 !important;
+    border: 1px solid #C9A227 !important;
+    border-radius: 10px !important;
+}
+[data-testid="stExpander"] summary,
+[data-testid="stExpander"] summary p {
+    color: #1F3A5F !important;
+}
+
+/* ---------- 输入框：米白底 + 泥金细边 ---------- */
+[data-testid="stChatInputTextArea"],
+[data-testid="stChatInput"] textarea {
+    background: #FFFBF2 !important;
+    color: #2B2B2B !important;
+    border: 1.5px solid #C9A227 !important;
+    border-radius: 8px !important;
+}
+[data-testid="stChatInputTextArea"]:focus,
+[data-testid="stChatInput"] textarea:focus {
+    border-color: #B5342A !important;
+    box-shadow: 0 0 0 1px #B5342A !important;
+}
+[data-testid="stChatInputTextArea"]::placeholder,
+[data-testid="stChatInput"] textarea::placeholder {
+    color: #A08C6A !important;
+}
+.stApp input, .stApp textarea {
+    background-color: #FFFBF2 !important;
+    color: #2B2B2B !important;
+    border-color: #C9A227 !important;
+}
+
+/* ---------- 文件上传：米白底 + 泥金虚线 ---------- */
+[data-testid="stFileUploaderDropzone"] {
+    background: #FFFBF2 !important;
+    border: 1.5px dashed #C9A227 !important;
+    border-radius: 10px !important;
+}
+[data-testid="stFileUploaderDropzone"] button {
+    background: #B5342A !important;
+    color: #FFFBF2 !important;
+    border: 1.5px solid #B5342A !important;
+    border-radius: 8px !important;
+}
+
+/* ---------- 下拉选择等 BaseWeb 控件 ---------- */
+[data-baseweb="select"] > div {
+    background-color: #FFFBF2 !important;
+    border-color: #C9A227 !important;
+    color: #2B2B2B !important;
+}
+
+/* ---------- 链接：黛蓝 ---------- */
+.stApp a, .stApp a:visited {
+    color: #1F3A5F;
+}
+
+/* ---------- 杂项：分割线、提示框、代码块 ---------- */
+[data-testid="stDivider"] hr, .stApp hr {
+    border-color: #C9A227 !important;
+}
+.stApp code, .stApp pre {
+    background: #EFE7D6 !important;
+    color: #2B2B2B !important;
+}
+[data-testid="stAlert"] {
+    background: #FFFBF2 !important;
+    border-radius: 8px;
+}

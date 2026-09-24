@@ -1,0 +1,8 @@
+{"text": "帮我生成一个戴凤冠、右侧面、暖黄色的女角头像", "expect_slots": {"role": "女角", "facing": "右侧面", "headwear": "凤冠", "color_palette": "暖黄"}}
+{"text": "来一个玄黑色调的老生", "expect_slots": {"role": "老生", "color_palette": "玄黑"}}
+{"text": "换成绯红色", "expect_slots": {"color_palette": "绯红"}}
+{"text": "不要出现花朵纹样", "expect_slots": {"negative_prompt": "花"}}
+{"text": "帮我设计一个小生，带方冠，镂空云纹，青绿色", "expect_slots": {"role": "小生", "headwear": "方冠", "pattern": "云纹", "color_palette": "青绿"}}
+{"text": "我想要一个左侧面的女角", "expect_slots": {"role": "女角", "facing": "左侧面"}}
+{"text": "给我来一个戴凤冠的", "expect_slots": {"headwear": "凤冠"}}
+{"text": "色彩暖一点就行", "expect_slots": {}}
